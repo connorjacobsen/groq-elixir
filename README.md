@@ -49,9 +49,6 @@ Groq.ChatCompletion.create(%{
 
 If you load the application with `iex -S mix` for local testing, please note you will need to ensure that the `:hackey` application has started before you can make requests. You can do this by running `Application.ensure_all_started(:hackey)` in the iex shell.
 
-```elixir
-
 ## Credit and Thanks
 
 This library was heavily inspired by the [Sentry](https://github.com/getsentry/sentry-elixir) Elixir SDK and borrows heavily from it.
-```
