@@ -1,4 +1,5 @@
 defmodule Groq.MixProject do
+  alias ElixirLS.LanguageServer.DocLinks
   use Mix.Project
 
   @version "0.1.0"
@@ -42,7 +43,10 @@ defmodule Groq.MixProject do
 
       # Development and Test dependencies:
       {:bypass, "~> 2.0", only: [:test]},
-      {:dialyxir, "~> 1.0", only: [:test, :dev], runtime: false}
+      {:dialyxir, "~> 1.0", only: [:test, :dev], runtime: false},
+
+      # Docs
+      {:ex_doc, ">= 0.0.0", only: :dev, runtime: false}
     ]
   end
 
