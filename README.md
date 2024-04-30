@@ -15,7 +15,7 @@ def deps do
     {:groq, "~> 0.1"},
 
     # Hackney is required to use the included HTTP adapter.
-    {:hackey, "~> 0.1"},
+    {:hackney, "~> 0.1"},
 
     # Jason or an alternative JSON library is required to parse responses.
     {:jason, "~> 1.2"}
